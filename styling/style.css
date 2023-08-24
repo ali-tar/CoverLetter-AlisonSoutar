@@ -1,0 +1,25 @@
+/*
+https://colorhunt.co/palette/e3fdfdcbf1f5a6e3e971c9ce
+*/
+
+
+.top-container{
+    background-color: #E3FDFD;
+    margin-top: 0;
+}
+
+.theme-primary{
+    background-color: #71C9CE;
+}
+
+.theme-text-primary{
+    color: #71C9CE;
+}
+
+.theme-secondary{
+    background-color: #A6E3E9;
+}
+
+.circle{
+    border-radius: 50%;
+}
