@@ -2,6 +2,25 @@
 https://colorhunt.co/palette/e3fdfdcbf1f5a6e3e971c9ce
 */
 
+/*animation*/
+.gradient-background {
+    background: linear-gradient(300deg, #71C9CE, #A6E3E9, #E3FDFD);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
 /*element styles*/
 hr {
     display: flex;
@@ -18,7 +37,8 @@ hr {
 
 /*class styles*/
 .top-container{
-    background-color: #E3FDFD;
+    padding-top: 5rem;
+    background-color: #A6E3E9;
     margin-top: 0;
 }
 
