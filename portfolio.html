@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- Boostrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styling/style.css">
+
+  <!--Custom styling-->
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+
+    <section id="nav">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light px-4">
+        <a class="navbar-brand" href="./index.html"><img src="./images/cartoon-icon-small.png" height="40px" style="margin-right: 1rem;">Alison Soutar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="./skills.html">Skills</a>
+            </li>
+          </ul>
+        </div>
+
+        <!--socials-->
+        <div class="d-flex ms-auto order-5">
+          <a class="mx-4" href="https://www.linkedin.com/in/alisonsoutar" target="_blank"><img src="./images/logo-linkedin-dark.png" alt="linkedin" height="30px"></a>
+          <!--behance-->
+          <a class="mx-4" href="https://www.behance.net/alisonsoutar" target="_blank"><img src="./images/logo-behance-dark.png" alt="behance" height="30px"></a>
+          <!--github-->
+          <a class="mx-4" href="https://github.com/ali-tar" target="_blank"><img src="./images/logo-github-dark.png" alt="github" height="30px"></a>
+          <!--figma-->
+          <a class="mx-4" href="https://www.figma.com/@alisonsoutar" target="_blank"><img src="./images/logo-figma-dark.png" alt="figma" height="30px"></a>
+
+        </div>
+
+      </nav>
+    </section>
+
+    <section id="hero">
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <figure class="figure">
+              <img src="./images/prototype-dualscreen.png" class="mb-2 d-block mx-lg-auto img-fluid" alt="prototype example" width="700" height="500" loading="lazy">
+              <figcaption class="figure-caption">(IM)PULSE (2022)</figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Welcome to my Portfolio.</h1>
+            <h4 class="">Allow me show you around.</h4>
+            <p class="lead">I'd like to welcome you to my Portfolio. Here you will find an amalgamation of some of the things I've worked on during my studies and in my own time.
+              You'll find a variety of things here - a curated taster of a few of my different skills; including developing, designing, diagramming and more. Enjoy your stay. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="hr-center">
+      <hr>
+    </div>
+
+    <section id="front-end">
+      <div class="container">
+        <h2 class="mb-4 pb-2 border-bottom">Front-End</h2>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top"alt="spotr" src="./portfolio/prototype-spotr-profile.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
+              <div class="card-body" height="auto">
+                <h5 class="card-title">Spotr</h5>
+                <p class="card-text">A fun little HTML/CSS website I created using borrowed brand imagery from Tinder. This was something I threw together in my spare time to practise using Bootstrap and external stylesheets. The concept? Tinder for Gym-Goers looking for a new gym buddy.</p>
+                <a href="https://ali-tar.github.io/Spotr-MockSite-Bootstrap-Project/" class="btn theme-primary">Spotr Website</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img class="card-img-top" data-src="holder.js/100px180/" alt="spotr" src="./portfolio/screenshot-cv-site.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
+              <div class="card-body" height="auto">
+                <h5 class="card-title">CV Site</h5>
+                <p class="card-text">One of my first CV Websites I created while learning CSS and HTML. This was created without using 3rd party stylesheets or Bootstrap. Served as practise to master CSS display options and responsive dividers.</p>
+                <a href="https://ali-tar.github.io/AlisonSoutar-CV/" target="_blank" class="btn theme-primary">CV Site</a>
+              </div>
+            </div>
+          </div>
+
+        <!--
+          and now we wait
+        <div class="col-lg">
+          <div class="card">
+            <img class="card-img-top" data-src="holder.js/100px180/" alt="spotr" src="./portfolio/prototype-spotr-profile.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
+            <div class="card-body" height="auto">
+              <h5 class="card-title">CV Site</h5>
+              <p class="card-text">One of my first CV Websites I created while learning CSS and HTML. This was created without using 3rd party stylesheets or Bootstrap. Served as practise to master CSS display options and responsive dividers.</p>
+              <a href="https://ali-tar.github.io/AlisonSoutar-CV/" target="_blank" class="btn theme-primary">CV Site</a>
+            </div>
+          </div>
+        </div>
+        -->
+
+      </div>
+
+      </div>
+    </section>
+    
+    <div class="hr-center">
+      <hr>
+    </div>
+
+    <section id="research">
+
+      <div class="container">
+        <h2 class="mb-4 pb-2 border-bottom">Research</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top"alt="impulse" src="./portfolio/prototype-impulse-profile.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
+              <div class="card-body" height="auto">
+                <h5 class="card-title">(IM)PULSE</h5>
+                <p class="card-text">The research portion of my year-long project for my advanced diploma in user centered design. This includes background research, competitive analysis, feasability study and problem definition.</p>
+                <a href="https://www.behance.net/gallery/175683313/Case-Study-(IM)PULSE-User-Research-Proposal" class="btn theme-primary">Read case study</a>
+              </div>
+            </div>           
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-casestudy-watch.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
+              <div class="card-body" height="auto">
+                <h5 class="card-title">Children's Health Watch</h5>
+                <p class="card-text">During my advanced diploma and in collaboration with Isoflow, myself and a group of peers did avid research into health tracking devices for children and their ethical connotations and safety considerations.</p>
+                <a href="./attachments/casestudy-isoflow-watch.pdf" class="btn theme-primary">Read case study</a>
+              </div>
+            </div>           
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-childrenereader.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
+              <div class="card-body" height="auto">
+                <h5 class="card-title">Children's E-Reader Reader</h5>
+                <p class="card-text">This is a summarised research case study for a project done in my undergraduate's second hear. The task at hand was to interview parents and/or 
+                  caregivers of young children to determine if there is a need for a child-specific e-reader.</p>
+                <a href="./attachments/casestudy-childrensreader.pdf" class="btn theme-primary">Read case study</a>
+              </div>
+            </div>           
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+    <div class="hr-center">
+      <hr>
+    </div>
+
+    <section id="design">
+      <div class="container">
+        <h2 class="mb-4 pb-2 border-bottom">Design</h2>
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="card">
+              <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-hardcore-festie.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
+              <div class="card-body" height="auto">
+                <h5 class="card-title">Infographic & Design</h5>
+                <p class="card-text">This includes a fun little infographic I created for (IM)PULSE summarising useful information relating to the concept application's target market. Additionally, other examples of my graphic design portfolio can be viewed here.</p>
+                <a href="https://www.behance.net/gallery/148590499/Digital-graphic-illustration-portfolio" class="btn theme-primary">Graphic design items</a>
+              </div>
+            </div>           
+          </div>
+        </div>
+      </div>
+    </section>
+
+</body>
+
+<footer>
+</footer>
