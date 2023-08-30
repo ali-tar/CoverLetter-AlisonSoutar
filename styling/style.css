@@ -4,7 +4,7 @@ https://colorhunt.co/palette/e3fdfdcbf1f5a6e3e971c9ce
 
 /*animation*/
 .gradient-background {
-    background: linear-gradient(300deg, #71C9CE, #A6E3E9, #E3FDFD);
+    background: linear-gradient(300deg,  #E3FDFD, #71C9CE, #CBF1F5, #f5b3ea);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
