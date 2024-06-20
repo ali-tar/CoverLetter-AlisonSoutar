@@ -58,14 +58,20 @@ hr {
 }
 
 .theme-secondary{
-    background-color: #A6E3E9;
+    background-color: #f5b3ea;
+}
+
+.theme-tertiary{
+  background-color: #CBF1F5;
 }
 
 .circle{
     border-radius: 50%;
 }
 
-
+.logo{
+  width: 2.5rem;
+}
 
 
 .feature-icon-primary{
@@ -107,5 +113,23 @@ hr {
     align-items: center;
     justify-content: center;
 }
+
+.card-deck {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-gap: .5rem;
+}
+
+.card-deck .card{
+  flex-direction: column;
+  margin:1rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
 
 
