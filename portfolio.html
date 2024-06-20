@@ -7,7 +7,7 @@
   <title>Portfolio</title>
 
   <!-- Boostrap link-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="./styling/style.css">
 
   <!--Custom styling-->
@@ -33,6 +33,10 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" style="color:darkcyan" href="./uxresearch.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: black" href="#socials">Connect</a>
+          </li>
         </ul>
       </header>
     </div>
@@ -64,68 +68,91 @@
       <hr>
     </div>
 
-    <section id="front-end">
+    <section id="development">
       <div class="container">
-        <h2 class="mb-4 pb-2 border-bottom">Front-End and Web Design</h2>
-        <p>Here are some websites I've made.</p>
-        <div class="row row-cols-xxl-3 row-cols-lg-3 row-cols-md-3 rows-cols-xs-1">
-          <div class="col">
-            <div class="card mb-2">
-              <img class="card-img-top"alt="spotr" src="./portfolio/prototype-spotr-profile.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">"Spotr" mocksite</h5>
-                <p class="card-text">Tinder for Gymgoers. A fun little HTML/CSS website I created using borrowed brand imagery from Tinder. Created to practise using Bootstrap.</p>
-                <a href="https://ali-tar.github.io/Spotr-MockSite-Bootstrap-Project/" class="btn theme-primary">Take me there</a>
+        <h2 class="mb-4 pb-2 border-bottom">Development and Web Design</h2>
+        <p>Here are some websites I've made, UML I've designed some code that I've written.</p>
+
+        <section id="card deck 1">
+          <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="./portfolio/prototype-spotr-profile.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">"Spotr" mocksite</h5>
+                  <p class="card-text">Tinder for Gymgoers. A fun little HTML/CSS website I created using borrowed brand imagery from Tinder. Created to practise using Bootstrap.</p>
+                </div>
+                <a href="https://ali-tar.github.io/Spotr-MockSite-Bootstrap-Project/" target="_blank" class="btn theme-primary">View Site</a>
+                <div class="card-footer">
+                  <small class="text-muted">Front-End Developer & UI Designer.</small>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col">
-            <div class="card mb-2">
-              <img class="card-img-top" alt="spotr" src="./portfolio/screenshot-cv-site.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">CV Site</h5>
-                <p class="card-text">My first CV Websites I created while learning CSS and HTML, created without external stylesheets. Served as practise to master CSS and responsive dividers.</p>
-                <a href="https://ali-tar.github.io/AlisonSoutar-CV/" target="_blank" class="btn theme-primary">Take me there</a>
+              <div class="card">
+                <img class="card-img-top" src="./portfolio/screenshot-cv-site.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">HTML & CSS CV Site</h5>
+                  <p class="card-text">My first CV Websites I created while learning CSS and HTML, created without external stylesheets. Served as practise to master CSS and responsive dividers.</p>
+                </div>
+                <a href="https://ali-tar.github.io/AlisonSoutar-CV/" target="_blank" class="btn theme-primary">View Site</a>
+                <div class="card-footer">
+                  <small class="text-muted">Front-End Developer.</small>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col">
-            <div class="card mb-2">
-              <img class="card-img-top" alt="move it move it" src="./portfolio/screenshot-moveitmoveit.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">"Move It, Move It" mocksite</h5>
-                <p class="card-text">My first attempt at using Bootstrap. I aimed to create a simple front page for a fictional moving company with features, an automatic slider and a navigation bar.</p>
-                <a href="https://ali-tar.github.io/MockSite-MoveItMoveIt/" target="_blank" class="btn theme-primary">Take me there</a>
+              <div class="card">
+                <img class="card-img-top" src="./portfolio/screenshot-moveitmoveit.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">"Move It, Move It" mocksite</h5>
+                  <p class="card-text">My first attempt at using Bootstrap. I aimed to create a simple front page for a fictional moving company with features, an automatic slider and a navigation bar.</p>
+                </div>
+                <a href="./portfolio/documents/Phase3-Design-And-Speficiation-Summary.pdf" target="_blank" class="btn theme-primary">Read Report</a>
+                <div class="card-footer">
+                  <small class="text-muted">Front-End Developer.</small>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col">
-            <div class="card mb-2">
-              <img class="card-img-top" alt="move it move it" src="./portfolio/screenshot-theatlantic.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">"The Atlantic Concierge" Website</h5>
-                <p class="card-text">A website I created for a branch of Lew Geffen's Sotherby's. This is an upmarket short letting website targeted at foreigners. This site was created using Wix.</p>
-                <a href="https://atlanticconcierge.com" target="_blank" class="btn theme-primary">Take me there</a>
+          </div>
+        </section>
+
+        <section id="card deck 2">
+          <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="./portfolio/screenshot-mmlinc.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">"MML Inc" Website</h5>
+                  <p class="card-text">A simple and informative landing page I created during freelance work for Marc Leon's conveyancer company's website.</p>
+                </div>
+                <a href="https://mmlinc.co.za" target="_blank" class="btn theme-primary">View Site</a>
+                <div class="card-footer">
+                  <small class="text-muted">Front-End Developer & UI Designer.</small>
+                </div>
               </div>
-            </div>
+
+                <div class="card">
+                  <img class="card-img-top" src="./portfolio/screenshot-theatlantic.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">"Atlantic Concierge" Website</h5>
+                    <p class="card-text">A website I created for a branch of Lew Geffen's Sotherby's. This is an upmarket short letting website targeted at foreigners. This site was created using Wix. As the sole Web Designer and a co-marketer, I am a key player in the company's essential brand identity and internal functionality.</p>
+                  </div>
+                  <a href="https://atlanticconcierge.com" target="_blank" class="btn theme-primary">View Site</a>
+                  <div class="card-footer">
+                    <small class="text-muted">Front-End Developer & UI Designer.</small>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img class="card-img-top" src="./portfolio/screenshot-uml.png" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">UML Diagrams and Systems Design</h5>
+                    <p class="card-text">A collection of UML diagrams and program designs from my computer science undergraduate from a variety of different projects, illustrating my enthusiasm for well-planned solutions.</p>
+                  </div>
+                  <a href="https://www.behance.net/gallery/148584703/UML-Architectural-Portfolio" target="_blank" class="btn theme-primary">View</a>
+                  <div class="card-footer">
+                    <small class="text-muted">Systems Designer.</small>
+                  </div>
+                </div>
           </div>
-
-          <div class="col">
-            <div class="card mb-2">
-              <img class="card-img-top" alt="move it move it" src="./portfolio/screenshot-mmlinc.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">"MML Inc" Website</h5>
-                <p class="card-text">A simple and informative landing page I created during freelance work for Marc Leon's conveyancer company's website.</p>
-                <a href="https://mmlinc.co.za" target="_blank" class="btn theme-primary">Under construction.</a>
-              </div>
-            </div>
-          </div>
-
-      </div>
-
+        </section>
       </div>
     </section>
     
@@ -135,59 +162,60 @@
 
     <section id="research">
       <div class="container">
-        <h2 class="mb-4 pb-2 border-bottom">User & Customer Research</h2>
-        <p>Below is an assortment of a few of my research projects and case studies I've made over throughout academic history.</p>
-        <div class="row row-cols-xxl-4 row-cols-lg-3 row-cols-md-2 rows-cols-xs-1">
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top"alt="impulse" src="./portfolio/prototype-impulse-profile.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">(IM)PULSE research</h5>
-                <p class="card-text">The research portion of my year-long project for my advanced diploma in user centered design. This includes background research, competitive analysis, feasability study and problem definition.</p>
-                <a href="https://www.behance.net/gallery/175683313/Case-Study-(IM)PULSE-User-Research-Proposal" class="btn theme-primary">View in Behance</a>
+        <h2 class="mb-4 pb-2 border-bottom">User Experience Design and Market Research</h2>
+        <p>Below is an assortment of a few of my research projects, case studies and freelance projects I've created over the years.</p>
+        <section id="card deck 1">
+          <div class="card-deck">
+              <div class="card">
+                <img class="card-img-top" src="./images/thumbnails/IS01-MARKET RESEARCH.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">IS01: Application Market Viability Research Project</h5>
+                  <p class="card-text">I noticed a vacancy in services that provided a clean and convenient user journey for concert and music festival discovery. 
+                    Using a variety of research methods I will begin to excavate possible user groups and market viability, allowing me to refine my problem statement. In doing so, the results from this document will lend itself to well-informed usability studies in later phases of the project.
+                    </p>
+                </div>
+                <a href="./portfolio/documents/Phase1-MarketViability-AlisonSoutar.pdf" target="_blank" class="btn theme-primary">Read Report</a>
+                <div class="card-footer">
+                  <small class="text-muted">Market and Feasibility Researcher.</small>
+                </div>
               </div>
-            </div>           
-          </div>
 
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-totalsports-research.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">TotalSports case study</h5>
-                <p class="card-text">In a live brief for MakeReign, we were asked to redesign the TotalSports website based on feedback from user testing. Our testing and initial deisgn choices can be read here. The final prototype can be viewed in the design section of this page.</p>
-                <a href="https://www.behance.net/gallery/177637855/MakeReign-live-brief-E-Commerce-Concept-TotalSports" target="blank_" class="btn theme-primary">View in Behance</a>
+              <div class="card">
+                <img class="card-img-top" src="./images/thumbnails/IS03-prototype design.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">IS03: Final Application Prototype and Design</h5>
+                  <p class="card-text">The festival scene in South Africa is growing at a rapid pace, quickly becoming one of the largest attractions
+                    for tourists and locals alike. 
+                    Event news is often communicated through word of mouth of over social media - Often leading to users missing out on festivals that suit their interests, as well as organisers struggling to reach wider audiences if they have poor social media
+                    presence.
+                    This phase of the project summarises both IS01 and IS02 and proposes a final suggestion to the proposed problem, with in-depth market research, user testing and iterative prototype development.</p>
+                </div>
+                <a href="./portfolio/documents/Phase3-Design-And-Speficiation-Summary.pdf" target="_blank" class="btn theme-primary">Read Report</a>
+                <div class="card-footer">
+                  <small class="text-muted">Application Systems Architecture Designer.</small>
+                </div>
               </div>
-            </div>           
-          </div>
 
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-casestudy-watch.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">Children's Health Watch</h5>
-                <p class="card-text">During my advanced diploma and in collaboration with Isoflow, myself and a group of peers did avid research into health tracking devices for children and their ethical connotations and safety considerations.</p>
-                <a href="./attachments/casestudy-isoflow-watch.pdf" class="btn theme-primary">View PDF</a>
+              <div class="card">
+                <img class="card-img-top" src="./images/thumbnails/Case Study E-Reader.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"> Creating Children's E-Reader: They're Smarter Than We Think</h5>
+                  <p class="card-text">
+                    Reading books to children under six is an essential part of early childhood development. Libraries and physical bookstores are great resources for this – However, the experience of finding, selecting, and downloading the e-books can be cumbersome. Additionally, the reader applications are generally designed for older individuals reading alone.
+                    In this case study, we will address the problems prevalent in the existing methods of reading e-books to children and discuss and illustrate improvements to these methods, resulting in an improved design. 
+                  </p>
+                </div>
+                <a href="./portfolio/documents/UCD3.3_CaseStudy.pdf" target="_blank" class="btn theme-primary">Read Report</a>
+                <div class="card-footer">
+                  <small class="text-muted">Product Designer and User Researcher.</small>
+                </div>
               </div>
-            </div>           
+  
+
           </div>
+        </section>
 
-          <!--to do fill in-->
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top"alt="the poplar brochure" src="./portfolio/screenshot-thepoplar.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">Poplar Development Brochure</h5>
-                <p class="card-text">A brochure for a development in Newlands. Designed text, layout and information flow of the brochure using provided renders and building data. In doing so,
-                   I learned how to provide meaningful and consise information to clients.</p>
-                <a href="./attachments/casestudy-thepoplar.pdf" class="btn theme-primary">View PDF</a>
-              </div>
-            </div>           
-          </div>
-
-
-        </div>
       </div>
-
     </section>
 
     <div class="hr-center">
@@ -196,129 +224,108 @@
 
     <section id="ux-design">
       <div class="container">
-        <h2 class="mb-4 pb-2 border-bottom">User Experience and Site Design</h2>
-        <p>Here are examples of my design works, from prototypes and design case studies to graphic illustration.</p>  
-        <div class="row row-cols-xxl-3 row-cols-lg-3 row-cols-md-2 rows-cols-xs-1">
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-impulsedesign.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">(IM)PULSE design</h5>
-                <p class="card-text">This is the second half of my design case study. This document has an in-depth considerations for the technical and graphical design considerations of the proposed application.</p>
-                <a href="https://www.behance.net/gallery/176063439/Case-Study-(IM)PULSE-Specifications-Interface-Design" target="blank_" class="btn theme-primary">View in Behance</a>
-              </div>
-            </div>           
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-totalsports-mobile.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">TotalSports Mobile</h5>
-                <p class="card-text">The mobile counterpart for the TotalSports case study. We followed a mobile-first approach, and expanded upon this design for Desktop.</p>
-                <a href="https://www.figma.com/community/file/1271427722143264815/E-Commerce-Web-Concept%3A-MakeReign-Live-Brief-Total-Sports" target="blank_" class="btn theme-primary">View in Figma</a>
-              </div>
-            </div>           
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-totalsports-web.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">TotalSports Desktop</h5>
-                <p class="card-text">The desktop website design portion of the TotalSports case study mentioned in the Research section. The final design folder can be viewed here.</p>
-                <a href="https://www.figma.com/community/file/1271427017291715629" target="blank_" class="btn theme-primary">View in Figma</a>
-              </div>
-            </div>           
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-tarrif.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">Parking tarrif observation & redesign</h5>
-                <p class="card-text">A final capstone for the user centered design course. We were tasked with observing users engaging with a parking tarrif machine and improving the design based on our observations.</p>
-                <a href="./attachments/casestudy-parkingtarrif-ucdexam.pdf" target="blank_" class="btn theme-primary">View PDF</a>
-              </div>
-            </div>           
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-uml.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-              <div class="card-body" height="auto">
-                <h5 class="card-title">UML Diagrams</h5>
-                <p class="card-text">A collection of UML diagrams and program designs from my computer science undergraduate from a variety of different projects, illustrating my enthusiasm for well-planned solutions.</p>
-                <a href="https://www.behance.net/gallery/148584703/UML-Architectural-Portfolio" target="blank_" class="btn theme-primary">View in Behance</a>
-              </div>
-            </div>           
-          </div>
-
-          
-            <div class="col">
-              <div class="card">
-                <img class="card-img-top"alt="impulse" src="./portfolio/screenshot-hardcore-festie.png" style="object-fit: cover; height: 300px; width: 100%;" data-holder-rendered="true">
-                <div class="card-body" height="auto">
-                  <h5 class="card-title">Infographic & Design</h5>
-                  <p class="card-text">This includes a fun little infographic I created for (IM)PULSE summarising useful information relating to the concept application's target market. Additionally, other examples of my graphic design portfolio can be viewed here.</p>
-                  <a href="https://www.behance.net/gallery/148590499/Digital-graphic-illustration-portfolio" target="blank_" class="btn theme-primary">View in Behance</a>
-                </div>
-              </div>           
-            </div>
-
-        </div>
-    </section>
-
-    <div class="hr-center">
-      <hr>
-    </div>
-
-    <section id="digital-design">
-      <div class="container">
-        <h2 class="mb-4 pb-2 border-bottom">Digital & Graphic Design</h2>
-        <p>Here is a handful of some of my graphic illustration items, primarily using static digital and traditional mediums.</p>
-        <a href="https://www.behance.net/gallery/192439455/Digital-Illusttation" class="btn theme-primary">View all designs</a>
+        <h2 class="mb-4 pb-2 border-bottom">Prototyping and Digital Design</h2>
+        <p>Here are examples of my design works, from prototypes and design case studies to graphic illustration. Most of these projects have in-depth research included, but I have chosen to separate these from the previous section as these projects showcase interactive prototypes.</p> 
         
-        <div class="row row-cols-xxl-3 row-cols-lg-3 row-cols-md-1 rows-cols-xs-1">
+        
+        <section id="card deck 1">
+          <div class="card-deck">
 
-          <div class="col">
-            <div class="card">
-              <img class="card-img"alt="lion hearts" src="./portfolio/Art/Lion-Tripping-WM.png" style="object-fit: cover; max-height: 800px" data-holder-rendered="true">
-            </div>
+              <div class="card">
+                <img class="card-img-top" src="./images/thumbnails/IS02-application design.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">IS02: Architectural and Page Mobile Application Design</h5>
+                  <p class="card-text">Following my research results from IS01 regarding market feasibility for a concert finding application, I moved onwards to the next phase of the product development lifestyle. I developed a solution using Agile methodology over three key research and design phases. Deliverables include: The application logic, Information Architecture, Page Structure, and User Experience design.
+                    This phase shows detail behind a prospective brand identity, as well as detailed feedback from user testing and all results of iterative testing and development.</p>
+                </div>
+                <a href="https://www.figma.com/proto/mfUHoVxvad2pFaLu1TgyOb/IS02-(IM)PULSE-(Copy)?page-id=0%3A1&node-id=2-3&viewport=104%2C816%2C0.21&t=NMqG6TNZhpdWY0Qu-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=153%3A5101" target="_blank" class="btn theme-secondary">View Prototype</a>
+                <a href="./portfolio/documents/Phase2-Prototype and Design-Alson Soutar.pdf" target="_blank" class="btn theme-primary">Read Report</a>
+                <div class="card-footer">
+                  <small class="text-muted">UX/UI Designer.</small>
+                </div>
+              </div>
+
+              <div class="card">
+                <img class="card-img-top" src="./images/thumbnails/IsoFlow-HabbitRabbit.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Wearable Design: Considerations for Children's Smart Watches</h5>
+                  <p class="card-text">
+                    Designing digital products for children is a difficult and unmediated task.
+  
+                    One must find suitable ways to simplify complex interactions and tasks into visual (and, depending on age demographic, para-verbal) mediums can prove challenging.
+  
+                    In this project, my team and I evaluated several ways we could design a children's health monitoring application, taking into consideration:
+                    - Physical restraints (watch size),
+                    - Legal restraints (children's safety),
+                    - Comprehension restraints (children's understanding), and
+                    - Desired functionality (user needs).
+                  </p>
+                </div>
+                <a href="./portfolio/demos/IsoFlow-WatchApp-Demo.mp4" target="_blank" class="btn theme-secondary">Watch Demo</a>
+                <a href="./portfolio/documents/HabbitRabbit.pdf" target="_blank" class="btn theme-primary">Read Report</a>
+                <div class="card-footer">
+                  <small class="text-muted">UX Researcher / UI Designer + Interaction Design</small>
+                </div>
+              </div>
+
           </div>
+        </section>
 
-          <div class="col">
+        <section id="card deck 2">
+          <div class="card-deck">
             <div class="card">
-              <img class="card-img"alt="reverse mermaid" src="./portfolio/Art/Hooker.png" style="object-fit: cover; max-height: 800px;" data-holder-rendered="true">
-            </div>
-          </div>
+              <img class="card-img-top" src="./images/thumbnails/Thumbnail-Cold Calling Management System.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Refining the Cold Calling Process: Freelance UX/UI Application Design</h5>
+                <p class="card-text">
+                  A local Real Estate company contacted me to improve their cold calling process by designing a solution  to monitor and manage various "sheets" of client and apartment block information.
+                  Their current system involves a variety of Google Sheets, which has major security and efficiency concerns. Users need to gather client information on one sheet, and mark down the result of a call on another.
+                  The goal was to create an application with different user types thereby controlling the flow of data and prevent information theft, while improving the user experience and simplifying the process.
+                  </p>
+              </div>
 
-          <div class="col">
+              <a href="https://www.figma.com/proto/gdOJmGmM2Z9vy2LPkOln0g/TCB-Database?page-id=301%3A8440&node-id=302-8640&viewport=57%2C233%2C0.03&t=w4JRRt9zaqPQFiBw-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=302%3A8640&show-proto-sidebar=1" target="_blank" class="btn theme-secondary">View Prototype</a>
+              <a href="./portfolio/documents/Portfolio TCB Database Slideshow.pdf" target="_blank" class="btn theme-primary">See Slideshow</a>
+              <div class="card-footer">
+                <small class="text-muted">UX Researcher & UI Designer</small>
+              </div>
+            </div>
+
             <div class="card">
-              <img class="card-img"alt="pretty odd" src="./portfolio/Art/PrettyOdd-Back.png" style="object-fit: cover; max-height: 800px;" data-holder-rendered="true">
-            </div>
-          </div>
+              <img class="card-img-top" src="./images/thumbnails/Thumbnail-TotalSports-Redesign.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">E-Commerce: Maintaining Customer Attention from Browsing to Check-Out</h5>
+                <p class="card-text">
+                  During our collaboration with UX Company MakeReign, we were given a task to exercise our design and research skills.
+                  Using TotalSports, a local brand, we were asked to give the product view page a complete facelift in accordance with user feedback, design standards, and user interface principles. We redesigned both the mobile and web versions - focusing on mobile-first development.
+                  The result was a well-refined, simplified and sleek final design, prioritising product view and check-out process - thereby shifting focus on to checking-out (thereby increasing revenue) over browsing.
+                </p>
 
-          <div class="col">
+              </div>
+              <a href="https://www.figma.com/proto/Plkm6PGy16xrG6JNpGj4mj/MakeReign-Mobile?page-id=0%3A1&node-id=1-117&viewport=254%2C293%2C0.21&t=uZeL4Id1z8oXxIM7-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A117&show-proto-sidebar=1" target="_blank" class="btn theme-tertiary">View Prototype (Mobile)</a>
+              <a href="https://www.figma.com/proto/86O5UsA6JHSvWaKt2Ix9Mc/MakeReign-Web?page-id=0%3A1&node-id=136-5568&viewport=-2495%2C396%2C0.23&t=2ZspSqf5CFC9qQ8F-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=136%3A5568" target="_blank" class="btn theme-secondary">View Prototype (Web)</a>
+              <a href="./portfolio/documents/UCD3.3_CaseStudy.pdf" target="_blank" class="btn theme-primary">Read Report</a>
+              <div class="card-footer">
+                <small class="text-muted">UI & Interaction Designer</small>
+              </div>
+            </div>
+
             <div class="card">
-              <img class="card-img"alt="shark tank" src="./portfolio/Art/SharkInATank.png" style="object-fit: cover; max-height: 800px;" data-holder-rendered="true">
-            </div>
-          </div>
+              <img class="card-img-top" src="./portfolio/screenshot-hardcore-festie.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Infographic & Design</h5>
+                <p class="card-text">
+                  This includes a fun little infographic I created for (IM)PULSE summarising useful information relating to the concept application's target market. Additionally, other examples of my graphic design portfolio can be viewed here.</p>
 
-          <div class="col">
-            <div class="card">
-              <img class="card-img" alt="animal boardgame" src="./portfolio/Art/AnimalBoardgame.png" style="object-fit: cover; max-height: 800px" data-holder-rendered="true">
+              </div>
+              <a href="https://www.behance.net/gallery/148590499/Digital-graphic-illustration-portfolio" target="_blank" class="btn theme-primary">View Designs</a>
+              <div class="card-footer">
+                <small class="text-muted">UI & Interaction Designer</small>
+              </div>
             </div>
-          </div>
 
-          <div class="col">
-            <div class="card">
-              <img class="card-img"alt="chill out" src="./portfolio/Art/ChillOut.png" style="object-fit: cover; max-height: 800px" data-holder-rendered="true">
-            </div>
           </div>
-
-        </div>
-      </div>
+        </section>
     </section>
 
     <div class="hr-center">
@@ -332,27 +339,25 @@
 
 
 <footer class="footer mt-auto py-3 bg-body-tertiary">
+  <a id="socials"></a>
   <div class="container">
     <div class="row">
       <div class="col d-flex justify-content-center align-items-center">
         <p>alisoncsoutar@gmail.com</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col d-flex justify-content-center align-items-center">
-        <p>+27 82 041 0407</p>
-      </div>
-    </div>
 
       <!--linkedin-->
     <div class="col d-flex justify-content-center align-items-center">
-      <a class="mx-4" href="https://www.linkedin.com/in/alisonsoutar" target="_blank"><img src="./images/logo-linkedin-dark.png" alt="linkedin" height="auto"></a>
+      <a class="mx-4 logo" href="https://www.linkedin.com/in/alisonsoutar" target="_blank"><img class="logo" src="./images/logo-linkedin-dark.png" alt="linkedin" height="auto"></a>
     <!--behance-->
-      <a class="mx-4" href="https://www.behance.net/alisonsoutar" target="_blank"><img src="./images/logo-behance-dark.png" alt="linkedin"></a>
+      <a class="mx-4 logo" href="https://www.behance.net/alisonsoutar" target="_blank"><img class="logo" src="./images/logo-behance-dark.png" alt="behance"></a>
       <!--github-->
-      <a class="mx-4" href="https://github.com/ali-tar" target="_blank"><img src="./images/logo-github-dark.png" alt="linkedin"></a>
+      <a class="mx-4 logo" href="https://github.com/ali-tar" target="_blank"><img class="logo" src="./images/logo-github-dark.png" alt="github"></a>
     <!--figma-->
-      <a class="mx-4" href="https://www.figma.com/@alisonsoutar" target="_blank"><img src="./images/logo-figma-dark.png" alt="linkedin"></a>
+      <a class="mx-4" href="https://www.figma.com/@alisonsoutar" target="_blank"><img class="logo" src="./images/logo-figma-dark.png" alt="figma"></a>
+    <!--upwork-->
+      <a class="mx-4 logo" href="https://www.upwork.com/freelancers/~018236873f37240cda" target="_blank"><img class="logo" src="./images/logo-upwork-dark.png" alt="upwork"></a>
     </div>
   </div>
 </footer>
